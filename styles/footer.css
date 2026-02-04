@@ -20,3 +20,14 @@ footer span:nth-child(3):hover{
     color: var(--brand-color);
 }
 
+@media (width < 80em) {
+    footer {
+        display: grid;
+        grid-template-columns: 3;
+        grid-template-rows: 3;
+
+        & span {
+            margin: auto;
+        }
+    }
+}
