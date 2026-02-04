@@ -24,11 +24,11 @@ body{
     font: var(--text);
     color: var(--text-color-secondary);
     background-color: var(--background-color);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 html {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 a {
